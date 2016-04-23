@@ -1,0 +1,15 @@
+click
+pyserial
+
+
+# On Mac OS X, psycopg2 will fail if you don't have PostgreSQL installed.
+# To avoid a full PostgreSQL install, you can:
+#  1. Download the Postgres.app from here: http://postgresapp.com
+#  2. Drop the Postgres.app in your Appliations directory
+#  3. Add the postgres bin directory to your path:
+#           export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+#        or
+#           permanenty add it to /etc/paths
+#  4. Activate your virtual env
+#  5. pip install psycopg2
+

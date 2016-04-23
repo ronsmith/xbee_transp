@@ -1,0 +1,15 @@
+src/tmp/
+*.pyc
+*.log
+*.zip
+*.tar
+*.mdj
+__pycache__
+.DS_Store
+.vagrant
+.idea
+secrets.json
+vagrant
+tmp/*
+venv
+logs/*
