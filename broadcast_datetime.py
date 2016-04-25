@@ -5,10 +5,10 @@
 from datetime import datetime
 from xbee.transparent import XBeeTransparent
 
+
 def main():
     xbee = XBeeTransparent('/dev/cu.usbserial-DN01DUAS')
-    if not xbee.write(datetime.now().strftime('DATETIME %Y-%m-%d %H:%M:%S\n')):
-        print("Failed to broadcast datetime")
+    xbee.broadcast(datetime.now().strftime('DATETIME %Y-%m-%d %H:%M:%S\n'))
     xbee.close()
 
 
